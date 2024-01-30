@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import './App.css';
 import Condition from './Condition';
+import Taskbar from './Taskbar';
 
 function App() {
 
@@ -25,6 +26,7 @@ function App() {
 
       {count}
       < Condition />
+      <Taskbar />
     </div>
   );
 }
