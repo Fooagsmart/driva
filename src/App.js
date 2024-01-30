@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import './App.css';
+import Condition from './Condition';
 
 function App() {
 
@@ -23,6 +24,7 @@ function App() {
       <button onClick={reset}>default</button>
 
       {count}
+      < Condition />
     </div>
   );
 }
