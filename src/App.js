@@ -1,18 +1,15 @@
 import './App.css';
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, } from 'react-router-dom';
 import Condition from './Condition';
 import Menu from './Menu';
 import Home from './Home';
+import Navbar from './Navbar';
 
 function App() {
   return (
     <div className="App">
       <Router >
-        <div>
-          <Link to="/">Home</Link>
-          <Link to="/Menu">Menu</Link>
-          <Link to="/Condition">Condition</Link>
-        </div>
+        <Navbar />
         <Routes>
         <Route path='/' element={<Home />}></Route>
         <Route path='/Menu' element={<Menu />}></Route>
