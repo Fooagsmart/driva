@@ -20,7 +20,7 @@ function App() {
   }
   return (
     <div className="App">
-      <button className='' onClick={increase}>increase</button>
+      <button onClick={increase}>increase</button>
       <button onClick={decrease}>decrease</button>
       <button onClick={reset}>default</button>
 
