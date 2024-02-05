@@ -1,10 +1,13 @@
 import React from 'react'
 
+import { ProSidebarProvider } from 'react-pro-sidebar';
+import Routes from './Routes';
+
 const App = () => {
   return (
-    <div>
-      
-    </div>
+    <ProSidebarProvider>
+      <Routes />
+    </ProSidebarProvider>
   )
 }
 
