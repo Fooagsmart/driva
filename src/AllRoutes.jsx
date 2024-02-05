@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './Pages/Home';
 import NotFound from './Pages/NotFound';
 
-const Routes = () => {
+const AllRoutes = () => {
   return (
     <div>
       
@@ -11,4 +11,4 @@ const Routes = () => {
   )
 }
 
-export default Routes
+export default AllRoutes
