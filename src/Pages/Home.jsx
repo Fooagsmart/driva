@@ -3,8 +3,16 @@ import { Link } from 'react-router-dom'
 
 const Home = () => {
   return (
-    <div>
-      
+    <div className='navigation'>
+      <h1>Homepage</h1>
+      <p className='headline'>
+        Quickly use the links below to navigate through all pages.
+      </p>
+      <ul>
+        <li>
+          <Link to="/dashboardhome">DashboardHome</Link>
+        </li>
+      </ul>
     </div>
   )
 }

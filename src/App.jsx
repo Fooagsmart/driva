@@ -1,12 +1,12 @@
 import React from 'react'
 
 import { ProSidebarProvider } from 'react-pro-sidebar';
-import AllRoutes from './AllRoutes';
+import Routes from './Routes';
 
 const App = () => {
   return (
     <ProSidebarProvider>
-      <AllRoutes />
+      <Routes />
     </ProSidebarProvider>
   )
 }
