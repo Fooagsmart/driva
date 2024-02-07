@@ -2,7 +2,7 @@ import React from 'react'
 
 const Job = (props) => {
   return (
-    <div>
+    <div className='color'>
       {props.salary}
       {props.company}
       {props.position}
@@ -12,7 +12,7 @@ const Job = (props) => {
 
 const App = () => {
   return (
-    <div className='navigation font-inter'> 
+    <div className='navigation font-inter '> 
       <Job salary={90000} position="Senior SDE" company="Amazon" />
       <Job salary={12000} position="Junior SDE" company="Google" />
       <Job salary={10000} position="Project Manager" company="Netflix" />
