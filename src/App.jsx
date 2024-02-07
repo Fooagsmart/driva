@@ -1,13 +1,22 @@
 import React from 'react'
 
-import { ProSidebarProvider } from 'react-pro-sidebar';
-import Routes from './Routes';
+const Job = (props) => {
+  return (
+    <div>
+      {props.salary}
+      {props.company}
+      {props.position}
+    </div>
+  )
+}
 
 const App = () => {
   return (
-    <ProSidebarProvider>
-      <Routes />
-    </ProSidebarProvider>
+    <div>
+      <Job salary={90000} position="Senior SDE" company="Amazon" />
+      <Job salary={12000} position="Junior SDE" company="Google" />
+      <Job salary={10000} position="Project Manager" company="Netflix" />
+    </div>
   )
 }
 
