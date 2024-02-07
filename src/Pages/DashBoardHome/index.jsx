@@ -2,7 +2,7 @@ import React from 'react'
 
 import { Sidebar } from 'react-pro-sidebar';
 import { useNavigate } from 'react-router-dom';
-import { Button, Img, Line, List, Text } from '../Components';
+import { Button, Img, Line, List, Text } from '../../Components';
 
 const DashBoardHome = () => {
   const navigate = useNavigate();

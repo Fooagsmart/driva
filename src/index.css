@@ -14,9 +14,7 @@ body {
 .common-pointer {
   cursor: pointer;
 }
-.color{
-  color: var(--white_A700);
-}
+
 .navigation {
   padding: 20px;
   background-color: #232323;
