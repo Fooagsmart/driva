@@ -282,7 +282,7 @@ const Desktop1PersonalInformationPage = () => {
                                   name="textcursor"
                                   placeholder="Enter NIN"
                                   className="p-0 placeholder:text-blue_gray-500 text-blue_gray-500 text-left text-sm w-full"
-                                  wrapClassName="w-[16%]"
+                                  wrapClassName="w-full"
                                   size="xs"
                                 ></Input>
                               </div>
@@ -303,7 +303,7 @@ const Desktop1PersonalInformationPage = () => {
                                   name="textcursor_One"
                                   placeholder="Enter LASDRI Number"
                                   className="p-0 placeholder:text-blue_gray-500 text-blue_gray-500 text-left text-sm w-full"
-                                  wrapClassName="w-[36%]"
+                                  wrapClassName="w-full"
                                   type="number"
                                   size="xs"
                                 ></Input>
