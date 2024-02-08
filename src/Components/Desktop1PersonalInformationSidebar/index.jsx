@@ -6,7 +6,7 @@ const Desktop1PersonalInformationSidebar = (props) => {
   return (
     <>
       <List className={props.className} orientation="vertical">
-        <div className="flex flex-col items-center justify-start p-4 w-full">
+        <div className="flex flex-col  justify-start p-4 w-full">
           <div className="flex flex-row gap-2 items-center justify-start w-auto">
             <Button
               className="cursor-pointer font-bold font-inter h-[31px] rounded-[15px] text-base text-center tracking-[-0.32px] w-[30px]"
@@ -32,8 +32,8 @@ const Desktop1PersonalInformationSidebar = (props) => {
             </div>
           </div>
         </div>
-        <div className="border-gray-300 border-solid border-y flex flex-col items-center justify-start p-4 w-full">
-          <div className="flex flex-row gap-2 items-center justify-start w-auto">
+        <div className="border-gray-300 border-solid border-y flex flex-col justify-start p-4 w-full ">
+          <div className="flex flex-row gap-2  justify-start w-auto items-center">
             <Button
               className="!text-blue_gray-500 cursor-pointer font-bold font-inter h-[31px] rounded-[15px] text-base text-center tracking-[-0.32px] w-[30px]"
               color="blue_gray_500"
@@ -44,7 +44,7 @@ const Desktop1PersonalInformationSidebar = (props) => {
             </Button>
             <div className="flex flex-col gap-1 items-start justify-start w-auto">
               <Text
-                className="text-blue_gray-900 text-sm w-auto"
+                className="text-blue_gray-500 text-sm w-auto"
                 size="txtInterSemiBold14Bluegray900"
               >
                 {props?.text3}
@@ -58,7 +58,7 @@ const Desktop1PersonalInformationSidebar = (props) => {
             </div>
           </div>
         </div>
-        <div className="border-gray-300 border-solid border-y flex flex-col items-center justify-start p-4 w-full">
+        <div className="border-gray-300 border-solid  flex flex-col  justify-start p-4 w-full">
           <div className="flex flex-row gap-2 items-center justify-start w-auto">
             <Button
               className="!text-blue_gray-500 cursor-pointer font-bold font-inter h-[31px] rounded-[15px] text-base text-center tracking-[-0.32px] w-[30px]"
@@ -70,7 +70,7 @@ const Desktop1PersonalInformationSidebar = (props) => {
             </Button>
             <div className="flex flex-col gap-1 items-start justify-start w-auto">
               <Text
-                className="text-blue_gray-900 text-sm w-auto"
+                className="text-blue_gray-500 text-sm w-auto"
                 size="txtInterSemiBold14Bluegray900"
               >
                 {props?.text5}
@@ -84,7 +84,7 @@ const Desktop1PersonalInformationSidebar = (props) => {
             </div>
           </div>
         </div>
-        <div className="flex flex-col items-center justify-start p-4 w-full">
+        <div className="flex flex-col  justify-start border-t p-4 w-full ">
           <div className="flex flex-row gap-2 items-center justify-start w-auto">
             <Button
               className="!text-blue_gray-500 cursor-pointer font-bold font-inter h-[31px] rounded-[15px] text-base text-center tracking-[-0.32px] w-[30px]"
@@ -96,7 +96,7 @@ const Desktop1PersonalInformationSidebar = (props) => {
             </Button>
             <div className="flex flex-col gap-1 items-start justify-start w-auto">
               <Text
-                className="text-blue_gray-900 text-sm w-auto"
+                className="text-blue_gray-500 text-sm w-auto"
                 size="txtInterSemiBold14Bluegray900"
               >
                 {props?.text7}
