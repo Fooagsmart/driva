@@ -31,7 +31,7 @@ const Desktop1PersonalInformationSchoolinfo = (props) => {
                     name="textcursor"
                     placeholder="Enter Address of School"
                     className="font-inter p-0 placeholder:text-blue_gray-500 text-blue_gray-500 text-left text-sm w-full"
-                    wrapClassName="w-[41%]"
+                    wrapClassName="w-full"
                     size="xs"
                   ></Input>
                 </div>
@@ -43,14 +43,13 @@ const Desktop1PersonalInformationSchoolinfo = (props) => {
               {props?.label2}
               <div className="bg-white-A700 border border-gray-200 border-solid flex flex-col items-center justify-start px-3 py-2 rounded-md w-full">
                 <div className="flex flex-col items-center justify-start w-full">
-                  <div className="flex flex-col items-center justify-start w-auto">
-                    <Text
-                      className="text-blue_gray-500 text-sm w-auto"
-                      size="txtInterRegular14"
-                    >
-                      {props?.yearin}
-                    </Text>
-                  </div>
+                <Input
+                    name="textcursor"
+                    placeholder="What Year did you Enter The School?"
+                    className="font-inter p-0 placeholder:text-blue_gray-500 text-blue_gray-500 text-left text-sm w-full"
+                    wrapClassName="w-full"
+                    size="xs"
+                  ></Input>
                 </div>
               </div>
             </div>
@@ -60,14 +59,13 @@ const Desktop1PersonalInformationSchoolinfo = (props) => {
               {props?.label3}
               <div className="bg-white-A700 border border-gray-200 border-solid flex flex-col items-center justify-start px-3 py-2 rounded-md w-full">
                 <div className="flex flex-col items-center justify-start w-full">
-                  <div className="flex flex-col items-center justify-start w-auto">
-                    <Text
-                      className="text-blue_gray-500 text-sm w-auto"
-                      size="txtInterRegular14"
-                    >
-                      {props?.yearout}
-                    </Text>
-                  </div>
+                <Input
+                    name="textcursor"
+                    placeholder="What Year did you Enter The School?"
+                    className="font-inter p-0 placeholder:text-blue_gray-500 text-blue_gray-500 text-left text-sm w-full"
+                    wrapClassName="w-full"
+                    size="xs"
+                  ></Input>
                 </div>
               </div>
             </div>

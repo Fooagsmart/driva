@@ -369,7 +369,7 @@ const Desktop1PersonalInformationPage = () => {
                             </Text>
                             <div className="bg-gray-100 border border-gray-200 border-solid flex flex-col items-center justify-start pl-3 pr-1 py-1 rounded-md w-full">
                               <Button
-                                className="border border-gray-200 border-solid cursor-pointer flex items-center justify-center min-w-[92px]"
+                                className="border border-gray-200 border-solid cursor-pointer flex items-center justify-center min-w-[92px] "
                                 leftIcon={
                                   <Img
                                     className="h-5 mb-px mr-2"
@@ -436,18 +436,17 @@ const Desktop1PersonalInformationPage = () => {
                               <div className="bg-gray-100 border border-gray-200 border-solid flex flex-col items-center justify-start pl-3 pr-1 py-1 rounded-md w-full">
                                 <Button
                                   className="border border-gray-300 border-solid cursor-pointer flex items-center justify-center min-w-[92px]"
-                                  leftIcon={
-                                    <Img
-                                      className="h-5 mb-px mr-2"
-                                      src="images/img_simplelineiconscloudupload.svg"
-                                      alt="simple-line-icons:cloud-upload"
-                                    />
-                                  }
+                                
                                   shape="round"
                                   color="white_A700"
                                   size="sm"
                                   variant="fill"
                                 >
+                                    <Img
+                                      className="h-5 mb-px mr-2"
+                                      src="images/img_simplelineiconscloudupload.svg"
+                                      alt="simple-line-icons:cloud-upload"
+                                    />
                                   <div className="!text-gray-900 text-left text-sm">
                                     Upload
                                   </div>
