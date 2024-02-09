@@ -8,7 +8,7 @@ const Desktop1PersonalInformation = React.lazy(
   () => import("./Pages/Desktop1PersonalInformation"),
 );
 const Desktop2VehicleInformation = React.lazy(
-  () => import("./pages/Desktop2VehicleInformation"),
+  () => import("./Pages/Desktop2VehicleInformation"),
 );
 
 const ProjectRoutes = () => {
