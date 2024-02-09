@@ -1,10 +1,15 @@
-import React from "react";
+import React, { useState } from "react";
+import ReactDatePicker from "react-datepicker";
+import 'react-datepicker/dist/react-datepicker.module.css'
 
 import { Button, Img, Input, List, Text } from "../../Components";
 import Desktop1PersonalInformationSchoolinfo from "../../Components/Desktop1PersonalInformationSchoolinfo";
 import Desktop1PersonalInformationSidebar from "../../Components/Desktop1PersonalInformationSidebar";
 
 const Desktop1PersonalInformationPage = () => {
+
+  const [selectedDate, setSelectedDate] = useState(null);
+
   return (
     <>
       <div className="bg-gray-50 flex flex-col font-zonapro items-center justify-start mx-auto pb-[353px] w-full">
@@ -226,7 +231,15 @@ const Desktop1PersonalInformationPage = () => {
                               color="white_A700"
                               size="sm"
                               variant="fill"
-                            ></Input>
+                            ><ReactDatePicker
+                              selected={selectedDate} 
+                              onChange={date => setSelectedDate(date)} 
+                              dateFormat="dd/MM/yyyy" 
+                              placeholderText="DD / MM / YYYY" 
+                              className="p-0 placeholder:text-blue_gray-500 text-left text-sm w-full" 
+                              wrapperClassName="border border-gray-200 border-solid flex w-full"> 
+                            </ReactDatePicker>
+                            </Input>
                           </div>
                         </div>
                         <div className="flex flex-1 flex-col items-start justify-start w-full">
