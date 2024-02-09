@@ -1,7 +1,7 @@
 import React from "react";
 
-import { Button, Img, Input, List, Text } from "components";
-import Desktop2VehicleInformationSidebar from "components/Desktop2VehicleInformationSidebar";
+import { Button, Img, Input, List, Text } from "../../Components";
+import Desktop2VehicleInformationSidebar from "../../Components/Desktop1PersonalInformationSidebar";
 
 const Desktop2VehicleInformationPage = () => {
   return (
