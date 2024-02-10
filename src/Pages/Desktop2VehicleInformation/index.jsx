@@ -1,7 +1,7 @@
 import React from "react";
 
 import { Button, Img, Input, List, Text } from "../../Components";
-import Desktop2VehicleInformationSidebar from "../../Components/Desktop1PersonalInformationSidebar";
+import Desktop2VehicleInformationSidebar from "../../Components/Desktop2VehicleInformationSidebar";
 
 const Desktop2VehicleInformationPage = () => {
   return (
@@ -73,7 +73,7 @@ const Desktop2VehicleInformationPage = () => {
                                   name="textcursor"
                                   placeholder="Enter Answer"
                                   className="p-0 placeholder:text-blue_gray-500 text-blue_gray-500 text-left text-sm w-full"
-                                  wrapClassName="w-[11%]"
+                                  wrapClassName="w-full"
                                   size="xs"
                                 ></Input>
                               </div>
