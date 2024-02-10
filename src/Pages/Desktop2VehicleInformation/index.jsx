@@ -122,8 +122,8 @@ const Desktop2VehicleInformationPage = () => {
                                     </Text>
                                   </div>
                                 </div>
-                                <div className="flex flex-col items-center justify-end w-full">
-                                  <div className="flex flex-col items-center justify-start w-auto">
+                                <div className="flex flex-col items-end justify-end w-full">
+                                  <div className="flex flex-col items-end justify-start w-auto">
                                     <Text
                                       className="text-gray-500 text-sm w-auto"
                                       size="txtInterRegular14Gray500"
@@ -144,8 +144,8 @@ const Desktop2VehicleInformationPage = () => {
                                     </Text>
                                   </div>
                                 </div>
-                                <div className="flex flex-col items-center justify-end w-full">
-                                  <div className="flex flex-col items-center justify-start w-auto">
+                                <div className="flex flex-col items-end justify-end w-full">
+                                  <div className="flex flex-col items-end justify-start w-auto">
                                     <Text
                                       className="text-gray-500 text-sm w-auto"
                                       size="txtInterRegular14Gray500"
