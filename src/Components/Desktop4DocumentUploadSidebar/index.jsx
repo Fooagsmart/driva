@@ -11,7 +11,7 @@ const Desktop4DocumentUploadSidebar = (props) => {
           orientation="vertical"
         >
           <div className="flex flex-1 flex-col items-center justify-start p-4 w-full">
-            <div className="flex flex-row gap-2 items-center justify-start w-auto">
+            <div className="flex flex-row gap-2 items-center justify-start w-full">
               <Button
                 className="flex h-[31px] items-center justify-center rounded-[15px] w-[30px]"
                 color="yellow_900"
@@ -36,8 +36,8 @@ const Desktop4DocumentUploadSidebar = (props) => {
               </div>
             </div>
           </div>
-          <div className="border-gray-300 border-solid border-y flex flex-1 flex-col items-center justify-start p-4 w-full">
-            <div className="flex flex-row gap-2 items-center justify-start w-auto">
+          <div className="border-gray-300 border-solid border-t flex flex-1 flex-col items-center justify-start p-4 w-full">
+            <div className="flex flex-row gap-2 items-center justify-start w-full">
               <Button
                 className="flex h-[31px] items-center justify-center rounded-[15px] w-[30px]"
                 color="yellow_900"
@@ -62,8 +62,8 @@ const Desktop4DocumentUploadSidebar = (props) => {
               </div>
             </div>
           </div>
-          <div className="border-gray-300 border-solid border-y flex flex-1 flex-col items-center justify-start p-4 w-full">
-            <div className="flex flex-row gap-2 items-center justify-start w-auto">
+          <div className="border-gray-300 border-solid border-t flex flex-1 flex-col items-center justify-start p-4 w-full">
+            <div className="flex flex-row gap-2 items-center justify-start w-full">
               <Button
                 className="flex h-[31px] items-center justify-center rounded-[15px] w-[30px]"
                 color="yellow_900"
@@ -89,8 +89,8 @@ const Desktop4DocumentUploadSidebar = (props) => {
             </div>
           </div>
         </List>
-        <div className="flex flex-col items-center justify-start p-4 w-full">
-          <div className="flex flex-row gap-2 items-center justify-start w-auto">
+        <div className="border-gray-300 border-solid border-t flex flex-col items-center justify-start p-4 w-full">
+          <div className="flex flex-row gap-2 items-center justify-start w-full">
             <Button
               className="cursor-pointer font-bold font-inter h-[31px] rounded-[15px] text-base text-center tracking-[-0.32px] w-[30px]"
               color="yellow_900"

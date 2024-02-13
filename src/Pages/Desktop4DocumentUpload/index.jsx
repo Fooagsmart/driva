@@ -77,7 +77,7 @@ const Desktop4DocumentUploadPage = () => {
                                   *
                                 </span>
                               </Text>
-                              <div className="bg-gray-100 border border-gray-200 border-solid flex flex-col items-center justify-start pl-2 pr-1 py-1 rounded-md w-full">
+                              <div className="bg-gray-100 border border-gray-200 border-solid flex flex-col items-end justify-start pl-2 pr-1 py-1 rounded-md w-full">
                                 <Button
                                   className="border border-gray-200 border-solid cursor-pointer flex items-center justify-center min-w-[92px]"
                                   leftIcon={
@@ -117,7 +117,7 @@ const Desktop4DocumentUploadPage = () => {
                                   *
                                 </span>
                               </Text>
-                              <div className="bg-gray-100 border border-gray-200 border-solid flex flex-col items-center justify-start pl-2 pr-1 py-1 rounded-md w-full">
+                              <div className="bg-gray-100 border border-gray-200 border-solid flex flex-col items-end justify-start pl-2 pr-1 py-1 rounded-md w-full">
                                 <Button
                                   className="border border-gray-200 border-solid cursor-pointer flex items-center justify-center min-w-[92px]"
                                   leftIcon={
