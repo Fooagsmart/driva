@@ -2,38 +2,38 @@ import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./Pages/Home";
 import NotFound from "./Pages/NotFound";
-const DashboardHome = React.lazy(() => import("./Pages/DashBoardHome"));
-const DashboardHomeTwo = React.lazy(() => import("./pages/DashboardHomeTwo"));
-const DashboardHomeFour = React.lazy(() => import("./pages/DashboardHomeFour"));
-const DashboardHomeThree = React.lazy(() => import("./pages/DashboardHomeThree"));
-const DashboardProfile = React.lazy(() => import("./pages/DashboardProfile"));
+const DashboardHome = React.lazy(() => import("./Pages/DashboardHome"));
+const DashboardHomeTwo = React.lazy(() => import("./Pages/DashboardHomeTwo"));
+const DashboardHomeFour = React.lazy(() => import("./Pages/DashboardHomeFour"));
+const DashboardHomeThree = React.lazy(() => import("./Pages/DashboardHomeThree"));
+const DashboardProfile = React.lazy(() => import("./Pages/DashboardProfile"));
 const DashboardProfileOne = React.lazy(
-  () => import("./pages/DashboardProfileOne"),
+  () => import("./Pages/DashboardProfileOne"),
 );
 const DashboardPaymentsOne1 = React.lazy(
-  () => import("./pages/DashboardPaymentsOne1"),
+  () => import("./Pages/DashboardPaymentsOne1"),
 );
 const DashboardPaymentsOne = React.lazy(
-  () => import("./pages/DashboardPaymentsOne"),
+  () => import("./Pages/DashboardPaymentsOne"),
 );
-const DashboardPayments = React.lazy(() => import("./pages/DashboardPayments"));
-const DashboardHomeOne = React.lazy(() => import("./pages/DashboardHomeOne"));
+const DashboardPayments = React.lazy(() => import("./Pages/DashboardPayments"));
+const DashboardHomeOne = React.lazy(() => import("./Pages/DashboardHomeOne"));
 const Desktop1ChangePassword = React.lazy(
-  () => import("./pages/Desktop1ChangePassword"),
+  () => import("./Pages/Desktop1ChangePassword"),
 );
-const Desktop5Success = React.lazy(() => import("./pages/Desktop5Success"));
-const Desktop5Loading = React.lazy(() => import("./pages/Desktop5Loading"));
+const Desktop5Success = React.lazy(() => import("./Pages/Desktop5Success"));
+const Desktop5Loading = React.lazy(() => import("./Pages/Desktop5Loading"));
 const Desktop5Confirmation = React.lazy(
-  () => import("./pages/Desktop5Confirmation"),
+  () => import("./Pages/Desktop5Confirmation"),
 );
 const Desktop4DocumentUpload = React.lazy(
-  () => import("./pages/Desktop4DocumentUpload"),
+  () => import("./Pages/Desktop4DocumentUpload"),
 );
 const Desktop3GuarantorInformation = React.lazy(
-  () => import("./pages/Desktop3GuarantorInformation"),
+  () => import("./Pages/Desktop3GuarantorInformation"),
 );
 const Desktop2VehicleInformation = React.lazy(
-  () => import("./pages/Desktop2VehicleInformation"),
+  () => import("./Pages/Desktop2VehicleInformation"),
 );
 const Desktop1PersonalInformation = React.lazy(
   () => import("./Pages/Desktop1PersonalInformation"),
