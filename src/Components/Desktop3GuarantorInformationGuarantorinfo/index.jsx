@@ -106,7 +106,7 @@ const Desktop3GuarantorInformationGuarantorinfo = (props) => {
             <div className="flex flex-1 flex-col items-start justify-start w-full">
               <div className="flex flex-col gap-1 items-start justify-start w-full">
                 {props?.label1}
-                <div className="bg-gray-100 border border-gray-200 border-solid flex flex-col items-center justify-start pl-3 pr-1 py-1 rounded-md w-full">
+                <div className="bg-gray-100 border border-gray-200 border-solid flex flex-col items-end justify-start pl-3 pr-1 py-1 rounded-md w-full">
                   <Button
                     className="border border-gray-300 border-solid cursor-pointer flex items-center justify-center min-w-[92px]"
                     leftIcon={
@@ -131,7 +131,7 @@ const Desktop3GuarantorInformationGuarantorinfo = (props) => {
             <div className="flex flex-1 flex-col items-start justify-start w-full">
               <div className="flex flex-col gap-1 items-start justify-start w-full">
                 {props?.label2}
-                <div className="bg-gray-100 border border-gray-200 border-solid flex flex-col items-center justify-start pl-3 pr-1 py-1 rounded-md w-full">
+                <div className="bg-gray-100 border border-gray-200 border-solid flex flex-col items-end justify-start pl-3 pr-1 py-1 rounded-md w-full">
                   <Button
                     className="border border-gray-300 border-solid cursor-pointer flex items-center justify-center min-w-[92px]"
                     leftIcon={
