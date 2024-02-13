@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 import { Button, List, Text } from "../../Components";
 
@@ -13,8 +14,10 @@ const Desktop1PersonalInformationSidebar = (props) => {
               color="yellow_900"
               size="xs"
               variant="fill"
-            >
-              {props?.button1}
+            >  <Link to="/desktop1personalinformation">
+             {props?.button1}
+          </Link>
+            
             </Button>
             <div className="flex flex-col gap-1 items-start justify-start w-auto">
               <Text
@@ -39,8 +42,11 @@ const Desktop1PersonalInformationSidebar = (props) => {
               color="blue_gray_500"
               size="xs"
               variant="outline"
-            >
-              {props?.button2}
+            >          <Link to="/desktop2vehicleinformation">
+             {props?.button2}
+          </Link>
+
+            
             </Button>
             <div className="flex flex-col gap-1 items-start justify-start w-auto">
               <Text
@@ -65,8 +71,10 @@ const Desktop1PersonalInformationSidebar = (props) => {
               color="blue_gray_500"
               size="xs"
               variant="outline"
-            >
-              {props?.button3}
+            > <Link to="/desktop3guarantorinformation">
+            {props?.button3}
+          </Link>
+             
             </Button>
             <div className="flex flex-col gap-1 items-start justify-start w-auto">
               <Text
@@ -91,8 +99,8 @@ const Desktop1PersonalInformationSidebar = (props) => {
               color="blue_gray_500"
               size="xs"
               variant="outline"
-            >
-              {props?.button4}
+            ><Link to="/desktop4documentupload">   {props?.button4}</Link>
+           
             </Button>
             <div className="flex flex-col gap-1 items-start justify-start w-auto">
               <Text

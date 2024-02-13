@@ -1,13 +1,13 @@
 import React, { useState } from "react";
 import ReactDatePicker from "react-datepicker";
-import 'react-datepicker/dist/react-datepicker.module.css'
+import "react-datepicker/dist/react-datepicker.module.css";
+import { Link } from "react-router-dom";
 
 import { Button, Img, Input, List, Text } from "../../Components";
 import Desktop1PersonalInformationSchoolinfo from "../../Components/Desktop1PersonalInformationSchoolinfo";
 import Desktop1PersonalInformationSidebar from "../../Components/Desktop1PersonalInformationSidebar";
 
 const Desktop1PersonalInformationPage = () => {
-
   const [selectedDate, setSelectedDate] = useState(null);
 
   return (
@@ -231,14 +231,15 @@ const Desktop1PersonalInformationPage = () => {
                               color="white_A700"
                               size="sm"
                               variant="fill"
-                            ><ReactDatePicker
-                              selected={selectedDate} 
-                              onChange={date => setSelectedDate(date)} 
-                              dateFormat="dd/MM/yyyy" 
-                              placeholderText="DD / MM / YYYY" 
-                              className="p-0 placeholder:text-blue_gray-500 text-left text-sm w-full" 
-                              wrapperClassName="border border-gray-200 border-solid flex w-full"> 
-                            </ReactDatePicker>
+                            >
+                              <ReactDatePicker
+                                selected={selectedDate}
+                                onChange={(date) => setSelectedDate(date)}
+                                dateFormat="dd/MM/yyyy"
+                                placeholderText="DD / MM / YYYY"
+                                className="p-0 placeholder:text-blue_gray-500 text-left text-sm w-full"
+                                wrapperClassName="border border-gray-200 border-solid flex w-full"
+                              ></ReactDatePicker>
                             </Input>
                           </div>
                         </div>
@@ -449,17 +450,16 @@ const Desktop1PersonalInformationPage = () => {
                               <div className="bg-gray-100 border border-gray-200 border-solid flex flex-col items-end justify-start pl-3 pr-1 py-1 rounded-md w-full">
                                 <Button
                                   className="border border-gray-300 border-solid cursor-pointer flex items-center justify-center min-w-[92px]"
-                                
                                   shape="round"
                                   color="white_A700"
                                   size="sm"
                                   variant="fill"
                                 >
-                                    <Img
-                                      className="h-5 mb-px mr-2"
-                                      src="images/img_simplelineiconscloudupload.svg"
-                                      alt="simple-line-icons:cloud-upload"
-                                    />
+                                  <Img
+                                    className="h-5 mb-px mr-2"
+                                    src="images/img_simplelineiconscloudupload.svg"
+                                    alt="simple-line-icons:cloud-upload"
+                                  />
                                   <div className="!text-gray-900 text-left text-sm">
                                     Upload
                                   </div>
@@ -580,7 +580,7 @@ const Desktop1PersonalInformationPage = () => {
                       size="sm"
                       variant="fill"
                     >
-                      Continue
+                      <Link to="/desktop2vehicleinformation">Continue</Link>
                     </Button>
                   </div>
                 </div>
