@@ -1,7 +1,7 @@
 import React from "react";
 
-import { Button, Img, List, Text } from "components";
-import Desktop4DocumentUploadSidebar from "components/Desktop4DocumentUploadSidebar";
+import { Button, Img, List, Text } from "../../Components";
+import Desktop4DocumentUploadSidebar from "../../Components/Desktop4DocumentUploadSidebar";
 
 const Desktop5LoadingPage = () => {
   return (

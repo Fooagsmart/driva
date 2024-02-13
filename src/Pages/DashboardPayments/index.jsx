@@ -2,8 +2,8 @@ import React from "react";
 
 import { useNavigate } from "react-router-dom";
 
-import { Button, Img, Input, List, Text } from "components";
-import DashboardPaymentsSidebar from "components/DashboardPaymentsSidebar";
+import { Button, Img, Input, List, Text } from "../../Components";
+import DashboardPaymentsSidebar from "../../Components/DashboardPaymentsSidebar";
 
 const DashboardPaymentsPage = () => {
   const navigate = useNavigate();

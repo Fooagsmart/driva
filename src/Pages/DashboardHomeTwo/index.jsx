@@ -2,8 +2,8 @@ import React from "react";
 
 import { useNavigate } from "react-router-dom";
 
-import { Button, Img, Line, List, Text } from "components";
-import DashboardHomeOneSidebar from "components/DashboardHomeOneSidebar";
+import { Button, Img, Line, List, Text } from "../../Components";
+import DashboardHomeOneSidebar from "../../Components/DashboardHomeOneSidebar";
 
 const DashboardHomeTwoPage = () => {
   const navigate = useNavigate();

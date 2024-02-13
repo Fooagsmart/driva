@@ -1,6 +1,6 @@
 import React from "react";
 
-import { Button, Img, Input, Text } from "components";
+import { Button, Img, Input, Text } from "../../Components";
 
 const Desktop1ChangePasswordPage = () => {
   return (

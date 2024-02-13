@@ -1,7 +1,7 @@
 import React from "react";
 
-import { Button, Img, List, Text } from "components";
-import DashboardHomeOneSidebar from "components/DashboardHomeOneSidebar";
+import { Button, Img, List, Text } from "../../Components";
+import DashboardHomeOneSidebar from "../../Components/DashboardHomeOneSidebar";
 
 const DashboardHomeOnePage = () => {
   return (

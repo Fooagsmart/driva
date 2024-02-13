@@ -1,7 +1,7 @@
 import React from "react";
 
-import { Button, Img, Input, List, Text } from "components";
-import DashboardPaymentsSidebar from "components/DashboardPaymentsSidebar";
+import { Button, Img, Input, List, Text } from "../../Components";
+import DashboardPaymentsSidebar from "../../Components/DashboardPaymentsSidebar";
 
 const DashboardPaymentsOnePage = () => {
   return (

@@ -1,8 +1,8 @@
 import React from "react";
 
-import { Button, Img, Input, List, SelectBox, Text } from "components";
-import DashboardPaymentsOneTransaction from "components/DashboardPaymentsOneTransaction";
-import DashboardPaymentsSidebar from "components/DashboardPaymentsSidebar";
+import { Button, Img, Input, List, SelectBox, Text } from "../../Components";
+import DashboardPaymentsOneTransaction from "../../Components/DashboardPaymentsOneTransaction";
+import DashboardPaymentsSidebar from "../../Components/DashboardPaymentsSidebar";
 
 const decemberOptionsList = [
   { label: "Option1", value: "option1" },

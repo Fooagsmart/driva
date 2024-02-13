@@ -1,6 +1,6 @@
 import React from "react";
 
-import { Button, Img, Input, List, Text } from "components";
+import { Button, Img, Input, List, Text } from "../../Components";
 
 const Desktop3GuarantorInformationGuarantorinfo = (props) => {
   return (

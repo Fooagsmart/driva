@@ -1,6 +1,6 @@
 import React from "react";
 
-import { Button, Text } from "components";
+import { Button, Text } from "../../Components";
 
 const DashboardPaymentsOneTransaction = (props) => {
   return (

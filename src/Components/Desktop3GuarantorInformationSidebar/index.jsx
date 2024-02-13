@@ -1,6 +1,6 @@
 import React from "react";
 
-import { Button, Img, List, Text } from "components";
+import { Button, Img, List, Text } from "../../Components";
 
 const Desktop3GuarantorInformationSidebar = (props) => {
   return (

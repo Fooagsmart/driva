@@ -1,8 +1,8 @@
 import React from "react";
 
-import { Button, Img, Input, List, Text } from "components";
-import Desktop3GuarantorInformationGuarantorinfo from "components/Desktop3GuarantorInformationGuarantorinfo";
-import Desktop3GuarantorInformationSidebar from "components/Desktop3GuarantorInformationSidebar";
+import { Button, Img, Input, List, Text } from "../../Components";
+import Desktop3GuarantorInformationGuarantorinfo from "../../Components/Desktop3GuarantorInformationGuarantorinfo";
+import Desktop3GuarantorInformationSidebar from "../../Components/Desktop3GuarantorInformationSidebar";
 
 const Desktop3GuarantorInformationPage = () => {
   return (
