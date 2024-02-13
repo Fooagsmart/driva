@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Home from "pages/Home";
-import NotFound from "pages/NotFound";
+import Home from "./Pages/Home";
+import NotFound from "./Pages/NotFound";
 const DashboardHome = React.lazy(() => import("./Pages/DashBoardHome"));
 const DashboardHomeTwo = React.lazy(() => import("./pages/DashboardHomeTwo"));
 const DashboardHomeFour = React.lazy(() => import("./pages/DashboardHomeFour"));
