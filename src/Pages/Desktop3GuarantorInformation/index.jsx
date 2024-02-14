@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 import { Button, Img, Input, List, Text } from "../../Components";
 import Desktop3GuarantorInformationGuarantorinfo from "../../Components/Desktop3GuarantorInformationGuarantorinfo";
@@ -27,7 +28,7 @@ const Desktop3GuarantorInformationPage = () => {
             <div className="bg-white-A700 border border-gray-200 border-solid flex flex-1 flex-col h-[567px] md:h-auto items-start justify-start max-w-[970px] rounded-lg w-full">
               <div className="flex flex-col h-full items-center justify-start rounded-lg w-full">
                 <div className="flex flex-col gap-3 h-full items-center justify-start py-5 rounded-lg w-full">
-                  <div className="border-b border-gray-200 border-solid flex flex-col gap-5 h-full items-center justify-start pb-5 px-10 sm:px-5 w-full">
+                  <div className="border-b border-gray-200 border-solid flex flex-col gap-5  items-center justify-start pb-5 px-10 sm:px-5 w-full">
                     <div className="flex flex-col items-start justify-center w-full">
                       <div className="flex flex-col gap-2 items-start justify-center w-full">
                         <div className="flex flex-col gap-1 items-start justify-center w-full">
@@ -140,7 +141,7 @@ const Desktop3GuarantorInformationPage = () => {
                       </Button>
                     </div>
                   </div>
-                  <div className="flex flex-col gap-5 items-start justify-center pt-2 px-10 sm:px-5 w-full">
+                  <div className="flex flex-col gap-3 items-start justify-center pb-5 pt-2 px-10 sm:px-5 w-full">
                     <Text
                       className="text-red-400 text-sm w-auto"
                       size="txtInterMedium14"
@@ -154,8 +155,8 @@ const Desktop3GuarantorInformationPage = () => {
                       color="yellow_900"
                       size="sm"
                       variant="fill"
-                    >
-                      Continue
+                    > 
+                    <Link to="/desktop4documentupload"> Continue</Link>
                     </Button>
                   </div>
                 </div>

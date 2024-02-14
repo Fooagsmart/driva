@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 import { Button, Img, List, Text } from "../../Components";
 import Desktop4DocumentUploadSidebar from "../../Components/Desktop4DocumentUploadSidebar";
@@ -150,8 +151,8 @@ const Desktop4DocumentUploadPage = () => {
                       color="yellow_900"
                       size="sm"
                       variant="fill"
-                    >
-                      Submit
+                    > <Link to="/desktop5confirmation"> Submit</Link>
+                     
                     </Button>
                   </div>
                 </div>

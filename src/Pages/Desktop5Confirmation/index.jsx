@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 import { useNavigate } from "react-router-dom";
 
@@ -66,8 +67,8 @@ const Desktop5ConfirmationPage = () => {
                         color="red_400"
                         size="sm"
                         variant="fill"
-                      >
-                        No
+                      ><Link to="/desktop4documentupload"> No</Link>
+                       
                       </Button>
                       <Button
                         className="common-pointer cursor-pointer min-w-[64px] text-center text-sm"
@@ -76,8 +77,8 @@ const Desktop5ConfirmationPage = () => {
                         color="teal_500"
                         size="sm"
                         variant="fill"
-                      >
-                        Yes
+                      >  <Link to="/desktop5loading"> Yes</Link>
+                       
                       </Button>
                     </div>
                   </div>

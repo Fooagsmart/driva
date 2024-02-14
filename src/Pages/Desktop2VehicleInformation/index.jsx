@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 import { Button, Img, Input, List, Text } from "../../Components";
 import Desktop2VehicleInformationSidebar from "../../Components/Desktop2VehicleInformationSidebar";
@@ -25,7 +26,7 @@ const Desktop2VehicleInformationPage = () => {
             <Desktop2VehicleInformationSidebar className="bg-white-A700 border border-gray-300 border-solid flex flex-col gap-[-1px] h-[567px] md:h-auto items-start justify-start mb-0.5 rounded-lg w-[310px]" />
             <div className="bg-white-A700 border border-gray-200 border-solid flex flex-1 flex-col gap-[-1px] items-start justify-start max-w-[970px] rounded-lg w-full">
               <div className="flex flex-col items-center justify-start w-full">
-                <div className="border-b border-gray-200 border-solid flex flex-col gap-5 items-center justify-start px-10 sm:px-5 py-5 w-full">
+                <div className="border-b border-gray-200 border-solid flex flex-col gap-5 items-center justify-start px-10 sm:px-5 py-5  w-full">
                   <div className="flex flex-col items-start justify-center w-full">
                     <div className="flex flex-col gap-2 items-start justify-center w-full">
                       <div className="flex flex-col gap-1 items-start justify-center w-full">
@@ -177,8 +178,10 @@ const Desktop2VehicleInformationPage = () => {
                   color="yellow_900"
                   size="sm"
                   variant="fill"
-                >
-                  Continue
+                >   <Link to="/desktop3guarantorinformation">
+              Continue
+              </Link>
+                 
                 </Button>
               </div>
             </div>

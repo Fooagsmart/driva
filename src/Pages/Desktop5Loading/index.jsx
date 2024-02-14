@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 import { Button, Img, List, Text } from "../../Components";
 import Desktop4DocumentUploadSidebar from "../../Components/Desktop4DocumentUploadSidebar";
@@ -27,11 +28,12 @@ const Desktop5LoadingPage = () => {
               <div className="flex flex-col items-center justify-start rounded-lg w-full">
                 <div className="flex flex-col h-[567px] md:h-auto items-center justify-center py-5 rounded-lg w-full">
                   <div className="flex flex-col items-center justify-start px-10 sm:px-5 w-full">
-                    <Img
+                  <Link to="/desktop5success">  <Img
                       className="h-[70px] md:h-auto object-cover w-[70px]"
                       src="images/img_httpslottief_70x70.png"
                       alt="httpslottief"
-                    />
+                    /></Link>
+                  
                   </div>
                 </div>
               </div>
