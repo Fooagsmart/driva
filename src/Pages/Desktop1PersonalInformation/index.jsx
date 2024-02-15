@@ -28,7 +28,7 @@ const Desktop1PersonalInformationPage = () => {
             </div>
           </div>
           <div className="flex md:flex-col flex-row font-inter gap-5 items-start justify-start max-w-[1300px] mx-auto md:px-5 w-full">
-            <Desktop1PersonalInformationSidebar className="bg-white-A700 border border-gray-300 border-solid flex md:flex-1 flex-col gap-[-1px] h-[567px] items-start mb-[832px] rounded-lg w-[310px] md:w-full" />
+            <Desktop1PersonalInformationSidebar className="bg-white-A700 border border-gray-300 border-solid flex md:flex-1 flex-col gap-[-1px] h-[567px] items-start mb-[832px] rounded-lg w-[310px] md:w-full md:mb-0" />
             <div className="bg-white-A700 border border-gray-200 border-solid flex flex-1 flex-col items-start justify-start max-w-[970px] rounded-lg w-full">
               <div className="flex flex-col gap-8 items-center justify-start rounded-lg w-full">
                 <div className="border-b border-gray-200 border-solid flex flex-col gap-5 items-center justify-start px-10 sm:px-5 py-5 w-full">
