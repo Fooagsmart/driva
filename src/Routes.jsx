@@ -1,23 +1,8 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Home from "./Pages/Home";
+
 import NotFound from "./Pages/NotFound";
-const DashboardHome = React.lazy(() => import("./Pages/DashboardHome"));
-const DashboardHomeTwo = React.lazy(() => import("./Pages/DashboardHomeTwo"));
-const DashboardHomeFour = React.lazy(() => import("./Pages/DashboardHomeFour"));
-const DashboardHomeThree = React.lazy(() => import("./Pages/DashboardHomeThree"));
-const DashboardProfile = React.lazy(() => import("./Pages/DashboardProfile"));
-const DashboardProfileOne = React.lazy(
-  () => import("./Pages/DashboardProfileOne"),
-);
-const DashboardPaymentsOne1 = React.lazy(
-  () => import("./Pages/DashboardPaymentsOne1"),
-);
-const DashboardPaymentsOne = React.lazy(
-  () => import("./Pages/DashboardPaymentsOne"),
-);
-const DashboardPayments = React.lazy(() => import("./Pages/DashboardPayments"));
-const DashboardHomeOne = React.lazy(() => import("./Pages/DashboardHomeOne"));
+
 const Desktop1ChangePassword = React.lazy(
   () => import("./Pages/Desktop1ChangePassword"),
 );
