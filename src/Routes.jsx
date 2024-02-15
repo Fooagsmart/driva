@@ -56,25 +56,7 @@ const ProjectRoutes = () => {
             path="/desktop1changepassword"
             element={<Desktop1ChangePassword />}
           />
-          <Route path="/dashboardhomeone" element={<DashboardHomeOne />} />
-          <Route path="/dashboardpayments" element={<DashboardPayments />} />
-          <Route
-            path="/dashboardpaymentsone"
-            element={<DashboardPaymentsOne />}
-          />
-          <Route
-            path="/dashboardpaymentsone1"
-            element={<DashboardPaymentsOne1 />}
-          />
-          <Route
-            path="/dashboardprofileone"
-            element={<DashboardProfileOne />}
-          />
-          <Route path="/dashboardprofile" element={<DashboardProfile />} />
-          <Route path="/dashboardhomethree" element={<DashboardHomeThree />} />
-          <Route path="/dashboardhomefour" element={<DashboardHomeFour />} />
-          <Route path="/dashboardhometwo" element={<DashboardHomeTwo />} />
-          <Route path="/dashboardhome" element={<DashboardHome />} />
+         
         </Routes>
       </Router>
     </React.Suspense>
