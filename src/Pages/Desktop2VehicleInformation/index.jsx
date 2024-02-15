@@ -186,6 +186,21 @@ const Desktop2VehicleInformationPage = () => {
               </div>
             </div>
           </div>
+          <Text
+              className="mt-[45px] text-blue_gray-500 text-center text-sm hidden sm:block"
+              size="txtInterSemiBold14"
+            >
+              <span className="text-blue_gray-500 font-inter font-semibold">
+                Copyright ©2024. All rights <br />
+                reserved. |{" "}
+              </span>
+              <a
+                href="javascript:"
+                className="text-yellow-900 font-inter font-semibold underline"
+              >
+                Driva️.com
+              </a>
+            </Text>
         </div>
       </div>
     </>
