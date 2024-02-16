@@ -12,7 +12,7 @@ const Desktop1PersonalInformationPage = () => {
 
   return (
     <>
-      <div className="bg-gray-50 flex flex-col font-zonapro items-center justify-start mx-auto pb-[353px] w-full">
+      <div className="bg-gray-50 flex flex-col font-zonapro items-center justify-start mx-auto pb-[30px] w-full">
         <div className="flex flex-col gap-10 items-center justify-start w-full">
           <div className="bg-white-A700 border-b border-blue_gray-100 border-solid flex flex-col items-center justify-start p-[13px] w-full">
             <div className="flex flex-col items-center justify-start md:px-5 w-[5%] md:w-full">
