@@ -23,37 +23,39 @@ const Desktop5LoadingPage = () => {
             </div>
           </div>
           <div className="flex md:flex-col flex-row font-inter gap-5 items-center justify-start max-w-[1300px] mx-auto md:px-5 w-full">
-            <Desktop4DocumentUploadSidebar className="bg-white-A700 border border-gray-300 border-solid flex flex-col gap-[-1px] h-[567px] md:h-auto items-start justify-start rounded-lg w-[310px]" />
+            <Desktop4DocumentUploadSidebar className="bg-white-A700 border border-gray-300 border-solid flex md:flex-1 flex-col gap-[-1px] h-[567px] md:w-full items-start justify-start rounded-lg w-[310px]" />
             <div className="bg-white-A700 border border-gray-200 border-solid flex flex-1 flex-col items-start justify-start max-w-[970px] rounded-lg w-full">
               <div className="flex flex-col items-center justify-start rounded-lg w-full">
-                <div className="flex flex-col h-[567px] md:h-auto items-center justify-center py-5 rounded-lg w-full">
+                <div className="flex flex-col h-[567px]  items-center justify-center py-5 rounded-lg w-full">
                   <div className="flex flex-col items-center justify-start px-10 sm:px-5 w-full">
-                  <Link to="/desktop5success">  <Img
-                      className="h-[70px] md:h-auto object-cover w-[70px]"
-                      src="images/img_httpslottief_70x70.png"
-                      alt="httpslottief"
-                    /></Link>
-                  
+                    <Link to="/desktop5success">
+                      {" "}
+                      <Img
+                        className="h-[70px] md:h-auto object-cover w-[70px]"
+                        src="images/img_httpslottief_70x70.png"
+                        alt="httpslottief"
+                      />
+                    </Link>
                   </div>
                 </div>
               </div>
             </div>
           </div>
           <Text
-              className="mt-[45px] text-blue_gray-500 text-center text-sm hidden sm:block"
-              size="txtInterSemiBold14"
+            className="mt-[45px] text-blue_gray-500 text-center text-sm hidden sm:block"
+            size="txtInterSemiBold14"
+          >
+            <span className="text-blue_gray-500 font-inter font-semibold">
+              Copyright ©2024. All rights <br />
+              reserved. |{" "}
+            </span>
+            <a
+              href="javascript:"
+              className="text-yellow-900 font-inter font-semibold underline"
             >
-              <span className="text-blue_gray-500 font-inter font-semibold">
-                Copyright ©2024. All rights <br />
-                reserved. |{" "}
-              </span>
-              <a
-                href="javascript:"
-                className="text-yellow-900 font-inter font-semibold underline"
-              >
-                Driva️.com
-              </a>
-            </Text>
+              Driva️.com
+            </a>
+          </Text>
         </div>
       </div>
     </>

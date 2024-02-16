@@ -22,10 +22,10 @@ const Desktop5SuccessPage = () => {
             </div>
           </div>
           <div className="flex md:flex-col flex-row font-inter gap-5 items-center justify-start max-w-[1300px] mx-auto md:px-5 w-full">
-            <Desktop4DocumentUploadSidebar className="bg-white-A700 border border-gray-300 border-solid flex flex-col gap-[-1px] h-[567px] md:h-auto items-start justify-start rounded-lg w-[310px]" />
+            <Desktop4DocumentUploadSidebar className="bg-white-A700 border border-gray-300 border-solid flex md:flex-1 flex-col gap-[-1px] h-[567px] md:w-full items-start justify-start rounded-lg w-[310px]" />
             <div className="bg-white-A700 border border-gray-200 border-solid flex flex-1 flex-col items-start justify-start max-w-[970px] rounded-lg w-full">
               <div className="flex flex-col items-center justify-start rounded-lg w-full">
-                <div className="flex flex-col h-[567px] md:h-auto items-center justify-center py-5 rounded-lg w-full">
+                <div className="flex flex-col h-[567px]  items-center justify-center py-5 rounded-lg w-full">
                   <div className="flex flex-col gap-5 items-center justify-start px-10 sm:px-5 w-full">
                     <Img
                       className="h-[60px] w-[60px]"
