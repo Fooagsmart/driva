@@ -99,7 +99,7 @@ const Desktop2VehicleInformationPage = () => {
                                 name="inputframe"
                                 placeholder="Date"
                                 className="p-0 placeholder:text-blue_gray-500 text-left text-sm w-full"
-                                wrapClassName="border border-gray-200 border-solid flex w-[21%]"
+                                wrapClassName="border border-gray-200 border-solid md:w-[50%] flex w-[21%]"
                                 prefix={
                                   <Img
                                     className="h-5 mr-2 my-auto"
