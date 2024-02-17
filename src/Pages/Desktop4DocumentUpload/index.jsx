@@ -9,7 +9,7 @@ const Desktop4DocumentUploadPage = () => {
     <>
       <div className="bg-gray-50 flex flex-col font-zonapro items-center justify-start mx-auto pb-[30px] w-full">
         <div className="flex flex-col gap-10 items-center justify-start w-full">
-          <div className="bg-white-A700 border-b border-blue_gray-100 border-solid flex flex-col items-center justify-start p-[13px] w-full">
+          <div className="bg-white-A700 border-b border-blue_gray-100 border-solid fixed flex flex-col items-center justify-start p-[13px] w-full">
             <div className="flex flex-col items-center justify-start md:px-5 w-[5%] md:w-full">
               <div className="flex flex-row gap-1 items-center justify-start w-auto">
                 <Img className="h-5 w-5" src="images/img_car.svg" alt="car" />
@@ -22,7 +22,7 @@ const Desktop4DocumentUploadPage = () => {
               </div>
             </div>
           </div>
-          <div className="flex md:flex-col flex-row font-inter gap-5 items-center justify-start max-w-[1300px] mx-auto md:px-5 w-full">
+          <div className="flex md:flex-col mt-[95px] flex-row font-inter gap-5 items-center justify-start max-w-[1300px] mx-auto md:px-5 w-full">
             <Desktop4DocumentUploadSidebar className="bg-white-A700 border border-gray-300 border-solid flex md:flex-1 flex-col gap-[-1px] h-[567px] md:w-full items-start justify-start rounded-lg w-[310px]" />
             <div className="bg-white-A700 border border-gray-200 border-solid flex flex-1 flex-col h-[567px] md:h-auto items-start justify-start max-w-[970px] rounded-lg w-full">
               <div className="flex flex-col h-full items-center justify-start rounded-lg w-full">
