@@ -39,7 +39,7 @@ const Desktop5SuccessPage = () => {
                           size="txtInterSemiBold16"
                         >
                           <>
-                            Thank your for applying! We will get back to
+                            Thank you for applying! We will get back to
                             <br />
                             you within 14 working days
                           </>
